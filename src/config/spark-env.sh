@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+export SPARK_EXECUTOR_MEMORY=3g
+export SPARK_DRIVER_MEMORY=2g
+export SPARK_EXECUTOR_CORES=2
+export SPARK_WORKER_CORES=2
+export SPARK_WORKER_MEMORY=4g
