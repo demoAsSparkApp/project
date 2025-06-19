@@ -1,0 +1,12 @@
+FROM bitnami/spark:3.5.0
+
+WORKDIR /app
+COPY . /app
+RUN pip install --no-cache-dir -r requirements.txt
+
+ENV PYSPARK_PYTHON=python3
+ENV PYTHONUNBUFFERED=1
+
+ENTRYPOINT ["spark-submit"]
+CMD ["src/spark_jobs/customer_etl.py"]
+
