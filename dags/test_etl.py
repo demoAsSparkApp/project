@@ -17,5 +17,4 @@ with DAG(
         task_id="print_hello_task",
         python_callable=print_hello
     )
-
     task_hello
