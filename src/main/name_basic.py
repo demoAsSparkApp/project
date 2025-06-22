@@ -8,7 +8,6 @@ sys.path.insert(0, PROJECT_ROOT)
 from src.config.spark_config import get_spark_session, get_jdbc_properties
 from src.config.settings import JDBC_URL
 from src.config.name_config import name_basic_config
-
 from pyspark.sql.functions import col, lit, concat_ws, lower, upper
 from src.config.spark_config import get_spark_session, get_jdbc_properties
 from src.config.settings import JDBC_URL

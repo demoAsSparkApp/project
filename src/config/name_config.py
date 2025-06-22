@@ -4,8 +4,8 @@ BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../"))
 
 name_basic_config = {
     "spark_config": {
-        "spark.sql.shuffle.partitions": "4",
-        "spark.executor.memory": "2g"
+        "spark.sql.shuffle.partitions": "8",
+        "spark.executor.memory": "1g"
     },
     "source": {
         "file_path": os.path.join(BASE_DIR, "data", "raw_data", "name.basics.csv"),
@@ -22,3 +22,4 @@ name_basic_config = {
         "table_name": "imdb_name_basics"
     }
 }
+#print(name_basic_config)
