@@ -1,0 +1,17 @@
+-- first create structure in Databricks 
+>>> config.py ( where spark config )
+>> setting.py (option)(data)
+>> ETL.ipynb
+(
+    call config.py (defult)
+    manuplate defult config  as job requriment 
+    call data from cloud (Azure)
+    create folder of clearn data 
+    >> input ( no replication )
+    >> ouput (clean ) 
+    >> track checkpoints 
+    >> track dala_log
+    >> see the time comsumtion (1min enchanced )
+    >> store as table in unity catalog 
+    >> basic sql script 
+)
