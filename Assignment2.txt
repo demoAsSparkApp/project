@@ -1,0 +1,10 @@
+Create a ETL pipeline
+USE DLT_live notebook under this repo 
+Databricks folder USe the notebook under your databricks account.
+step 1 got workflow
+step 2 >>create ETL pipline 
+ >>> give ETL name
+ >> choose the .ipynb file where DLT module is present 
+ >> choose your unity catalog  or hive metastore
+ >>>  create and run the job 
+

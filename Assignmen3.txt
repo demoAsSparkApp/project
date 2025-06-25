@@ -1,0 +1,7 @@
+create module project 
+>> create a main folder under your workspace 
+>> create a small module which can reuse in every notebook 
+like imbbd path  make dyanamic 
+like your spark.config in my case i using free version so use limited 
+>> some aggreagete fucntion and other module under main 
+create diredctory like >> workspace >> src>> config/config.py , src>>paths.py >> src>> notebooks>>ingest_files>> main.ipynb
