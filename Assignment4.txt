@@ -1,0 +1,11 @@
+Run all the databicks notebook in databicks_project
+>> ETL 
+>> make a job in databricks to automate the notebooks
+
+>>> DAG >> Ingest>> analysis>> pridiction>> vizulization
+======
+1. Change model don't use my pre Stast use, function and mlflow 
+2. change you dataset 
+3. follow same structure
+4. config you spark session in config file 
+5. do a meaningfull analysis 
